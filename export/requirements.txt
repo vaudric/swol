@@ -1,0 +1,9 @@
+pip
+setuptools
+wheel
+pip-chill
+click
+dateutils
+requests
+beautifulsoup4
+html5lib
