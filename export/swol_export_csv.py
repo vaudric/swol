@@ -61,7 +61,7 @@ def export_csv(*argv, **kwargs):
     Simple program that exports your block times since YEAR MONTH up to last month.
     By nice to SKW! Don't request more than 2 years (24 months) at a time.
     The program won't let you do it.
-    Be Nice Throttle (BNT):The script sleeps for 1 second between every page load.
+    Be Nice Throttle (BNT):The script sleeps for 500ms between every page load.
     """
 
     password = str(kwargs['password'])
