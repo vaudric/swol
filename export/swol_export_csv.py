@@ -57,7 +57,7 @@ WAIT_TIME = 0.5
 @click.option('-f', '--format', prompt='Block format', type=click.STRING, default='HHMM', help=f'Block time format: HHMM or Decimal.')
 @click.option('-o', '--output', prompt='Ouput file name', type=click.STRING, default='export', help=f'Name of output file without extension. (e.g.: export)')
 def export_csv(*argv, **kwargs):
-    """\b
+    """
     Simple program that exports your block times since YEAR MONTH up to last month.
     By nice to SKW! Don't request more than 2 years (24 months) at a time.
     The program won't let you do it.
