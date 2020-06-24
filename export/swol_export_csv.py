@@ -150,7 +150,7 @@ def swol_export_csv(**kwargs):
 
     # Fetch all input form fields to build the POSTed params
     params = {}
-    inputs = bs.form.findAll('input')
+    inputs = bs.form.find_all('input')
     for input in inputs:
         if 'value' in input.attrs:
             params.update({input.attrs['name']: input.attrs['value']})
